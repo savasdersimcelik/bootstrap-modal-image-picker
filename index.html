@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Modal Image Picker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12" style="margin-top: 10px">
+			<p style="text-align:center">For explanation and examples, visit <a href="https://github.com/savasdersimcelik" target="_blank">Savaş Dersim Çelik</a></p>
+		</div>
+		<div class="col-md-12" style="margin-top: 10px">
+			<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#imagePicker">Choose Image</button>
+		</div>
+		<div class="col-md-12" style="margin-top: 10px">
+			<div class="input-group">
+				<span class="input-group-addon"><i class="glyphicon glyphicon-picture"></i></span>
+				<input id="email" type="text" class="form-control select-image-id" name="email" placeholder="Email">
+			</div>
+		</div>
+		<div class="col-md-12" style="margin-top: 10px">
+			<img src="" class="select-image-src img-rounded">
+		</div>
+	</div>	
+
+    <div class="modal" id="imagePicker">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                	<div class="wall">
+                        <label data-src="https://picsum.photos/200?random=1" data-id="1" style="background-image: url(https://picsum.photos/200?random=1)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+						<label data-src="https://picsum.photos/200?random=2" data-id="2" style="background-image: url(https://picsum.photos/200?random=2)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=3" data-id="3" style="background-image: url(https://picsum.photos/200?random=3)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=4" data-id="4" style="background-image: url(https://picsum.photos/200?random=4)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=5" data-id="5" style="background-image: url(https://picsum.photos/200?random=5)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=6" data-id="6" style="background-image: url(https://picsum.photos/200?random=6)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=7" data-id="7" style="background-image: url(https://picsum.photos/200?random=7)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=8" data-id="8" style="background-image: url(https://picsum.photos/200?random=8)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=9" data-id="9" style="background-image: url(https://picsum.photos/200?random=9)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=10" data-id="10" style="background-image: url(https://picsum.photos/200?random=10)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=11" data-id="11" style="background-image: url(https://picsum.photos/200?random=11)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=12" data-id="12" style="background-image: url(https://picsum.photos/200?random=12)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=13" data-id="13" style="background-image: url(https://picsum.photos/200?random=13)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=14" data-id="14" style="background-image: url(https://picsum.photos/200?random=14)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=15" data-id="15" style="background-image: url(https://picsum.photos/200?random=15)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=16" data-id="16" style="background-image: url(https://picsum.photos/200?random=16)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=17" data-id="17" style="background-image: url(https://picsum.photos/200?random=17)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=18" data-id="18" style="background-image: url(https://picsum.photos/200?random=18)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=19" data-id="19" style="background-image: url(https://picsum.photos/200?random=19)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=20" data-id="20" style="background-image: url(https://picsum.photos/200?random=20)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=21" data-id="21" style="background-image: url(https://picsum.photos/200?random=21)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=22" data-id="22" style="background-image: url(https://picsum.photos/200?random=22)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=23" data-id="23" style="background-image: url(https://picsum.photos/200?random=23)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=24" data-id="24" style="background-image: url(https://picsum.photos/200?random=24)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=25" data-id="25" style="background-image: url(https://picsum.photos/200?random=25)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=26" data-id="26" style="background-image: url(https://picsum.photos/200?random=26)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=27" data-id="27" style="background-image: url(https://picsum.photos/200?random=27)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=28" data-id="28" style="background-image: url(https://picsum.photos/200?random=28)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=29" data-id="29" style="background-image: url(https://picsum.photos/200?random=29)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=30" data-id="30" style="background-image: url(https://picsum.photos/200?random=30)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=31" data-id="31" style="background-image: url(https://picsum.photos/200?random=31)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=32" data-id="32" style="background-image: url(https://picsum.photos/200?random=32)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=33" data-id="33" style="background-image: url(https://picsum.photos/200?random=33)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=34" data-id="34" style="background-image: url(https://picsum.photos/200?random=34)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=35" data-id="35" style="background-image: url(https://picsum.photos/200?random=35)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=36" data-id="36" style="background-image: url(https://picsum.photos/200?random=36)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=37" data-id="37" style="background-image: url(https://picsum.photos/200?random=37)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=38" data-id="38" style="background-image: url(https://picsum.photos/200?random=38)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=39" data-id="39" style="background-image: url(https://picsum.photos/200?random=39)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=40" data-id="40" style="background-image: url(https://picsum.photos/200?random=40)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=41" data-id="41" style="background-image: url(https://picsum.photos/200?random=41)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=42" data-id="42" style="background-image: url(https://picsum.photos/200?random=42)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=43" data-id="43" style="background-image: url(https://picsum.photos/200?random=43)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=44" data-id="44" style="background-image: url(https://picsum.photos/200?random=44)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=45" data-id="45" style="background-image: url(https://picsum.photos/200?random=45)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=46" data-id="46" style="background-image: url(https://picsum.photos/200?random=46)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=47" data-id="47" style="background-image: url(https://picsum.photos/200?random=47)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=48" data-id="48" style="background-image: url(https://picsum.photos/200?random=48)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=49" data-id="49" style="background-image: url(https://picsum.photos/200?random=49)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=50" data-id="50" style="background-image: url(https://picsum.photos/200?random=50)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=51" data-id="51" style="background-image: url(https://picsum.photos/200?random=51)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=52" data-id="52" style="background-image: url(https://picsum.photos/200?random=52)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=53" data-id="53" style="background-image: url(https://picsum.photos/200?random=53)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=54" data-id="54" style="background-image: url(https://picsum.photos/200?random=54)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=55" data-id="55" style="background-image: url(https://picsum.photos/200?random=55)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=56" data-id="56" style="background-image: url(https://picsum.photos/200?random=56)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=57" data-id="57" style="background-image: url(https://picsum.photos/200?random=57)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=58" data-id="58" style="background-image: url(https://picsum.photos/200?random=58)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=59" data-id="59" style="background-image: url(https://picsum.photos/200?random=59)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=60" data-id="60" style="background-image: url(https://picsum.photos/200?random=60)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=61" data-id="61" style="background-image: url(https://picsum.photos/200?random=61)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=62" data-id="62" style="background-image: url(https://picsum.photos/200?random=62)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=63" data-id="63" style="background-image: url(https://picsum.photos/200?random=63)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=64" data-id="64" style="background-image: url(https://picsum.photos/200?random=64)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=65" data-id="65" style="background-image: url(https://picsum.photos/200?random=65)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=66" data-id="66" style="background-image: url(https://picsum.photos/200?random=66)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=67" data-id="67" style="background-image: url(https://picsum.photos/200?random=67)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=68" data-id="68" style="background-image: url(https://picsum.photos/200?random=68)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=69" data-id="69" style="background-image: url(https://picsum.photos/200?random=69)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=70" data-id="70" style="background-image: url(https://picsum.photos/200?random=70)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=71" data-id="71" style="background-image: url(https://picsum.photos/200?random=71)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=72" data-id="72" style="background-image: url(https://picsum.photos/200?random=72)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=73" data-id="73" style="background-image: url(https://picsum.photos/200?random=73)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=74" data-id="74" style="background-image: url(https://picsum.photos/200?random=74)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=75" data-id="75" style="background-image: url(https://picsum.photos/200?random=75)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=76" data-id="76" style="background-image: url(https://picsum.photos/200?random=76)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=77" data-id="77" style="background-image: url(https://picsum.photos/200?random=77)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=78" data-id="78" style="background-image: url(https://picsum.photos/200?random=78)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=79" data-id="79" style="background-image: url(https://picsum.photos/200?random=79)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=80" data-id="80" style="background-image: url(https://picsum.photos/200?random=80)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=81" data-id="81" style="background-image: url(https://picsum.photos/200?random=81)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=82" data-id="82" style="background-image: url(https://picsum.photos/200?random=82)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=83" data-id="83" style="background-image: url(https://picsum.photos/200?random=83)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=84" data-id="84" style="background-image: url(https://picsum.photos/200?random=84)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=85" data-id="85" style="background-image: url(https://picsum.photos/200?random=85)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=86" data-id="86" style="background-image: url(https://picsum.photos/200?random=86)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=87" data-id="87" style="background-image: url(https://picsum.photos/200?random=87)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=88" data-id="88" style="background-image: url(https://picsum.photos/200?random=88)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=89" data-id="89" style="background-image: url(https://picsum.photos/200?random=89)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=90" data-id="90" style="background-image: url(https://picsum.photos/200?random=90)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=91" data-id="91" style="background-image: url(https://picsum.photos/200?random=91)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=92" data-id="92" style="background-image: url(https://picsum.photos/200?random=92)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=93" data-id="93" style="background-image: url(https://picsum.photos/200?random=93)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=94" data-id="94" style="background-image: url(https://picsum.photos/200?random=94)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=95" data-id="95" style="background-image: url(https://picsum.photos/200?random=95)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=96" data-id="96" style="background-image: url(https://picsum.photos/200?random=96)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=97" data-id="97" style="background-image: url(https://picsum.photos/200?random=97)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=98" data-id="98" style="background-image: url(https://picsum.photos/200?random=98)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=99" data-id="99" style="background-image: url(https://picsum.photos/200?random=99)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=100" data-id="100" style="background-image: url(https://picsum.photos/200?random=100)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=101" data-id="101" style="background-image: url(https://picsum.photos/200?random=101)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=102" data-id="102" style="background-image: url(https://picsum.photos/200?random=102)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=103" data-id="103" style="background-image: url(https://picsum.photos/200?random=103)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+                        <label data-src="https://picsum.photos/200?random=104" data-id="104" style="background-image: url(https://picsum.photos/200?random=104)" class="brick tile-picker">
+                          <input type="radio" name="optradio">
+                        </label>
+					</div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary modal-image-select" data-dismiss="modal">Add Images</button>
+                    <button type="button" class="btn btn-cancel modal-cancel-select" data-dismiss="modal">Cancel</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+</div>
+
+</body>
+
+</html>

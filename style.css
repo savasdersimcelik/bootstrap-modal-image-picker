@@ -1,0 +1,32 @@
+.brick {
+    width: 100px;
+    height: 100px;
+    background: #f2f2f2;
+}
+
+.wall {
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.tile-picker {
+    position: relative;
+    cursor: pointer;
+    background-color: #eaeaea;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, .1);
+    outline: 5px solid #fff;
+    outline-offset: -3px;
+    border: 1px solid #bbb;
+}
+
+.active.tile-picker {
+    border-color: #aaa;
+}
+
+.tile-picker input[type=checkbox] {
+    opacity: 0;
+    position: absolute;
+    left: -80px;
+}
