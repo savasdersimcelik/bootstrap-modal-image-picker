@@ -1,6 +1,3 @@
-// Optional code
-
-// Tile Picker Active Border
 $(document).on("click", ".sdc-picker input", function(e) {
   $('.wall').find('.sdc-picker').removeClass("active");
   $(this).closest(".sdc-picker").addClass("active");
