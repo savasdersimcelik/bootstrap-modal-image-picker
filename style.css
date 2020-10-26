@@ -9,7 +9,7 @@
     height: 500px;
 }
 
-.tile-picker {
+.sdc-picker {
     position: relative;
     cursor: pointer;
     background-color: #eaeaea;
@@ -21,11 +21,11 @@
     border: 1px solid #bbb;
 }
 
-.active.tile-picker {
+.active.sdc-picker {
     border-color: #aaa;
 }
 
-.tile-picker input[type=checkbox] {
+.sdc-picker input[type=checkbox] {
     opacity: 0;
     position: absolute;
     left: -80px;
